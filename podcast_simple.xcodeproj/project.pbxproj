@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280DA4A625A6F70600BCDC4C /* 壹加壹.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 280DA4A225A6F70600BCDC4C /* 壹加壹.jpg */; };
+		280DA4A825A6F70600BCDC4C /* 三不五時七步成詩.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 280DA4A425A6F70600BCDC4C /* 三不五時七步成詩.jpg */; };
+		280DA4AE25A6F91400BCDC4C /* 呱吉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 280DA4AD25A6F91400BCDC4C /* 呱吉.jpg */; };
+		280DA4B325A6F91C00BCDC4C /* Ted Talk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 280DA4B225A6F91C00BCDC4C /* Ted Talk.jpg */; };
+		280DA4CE25A70D1D00BCDC4C /* oneplusone_ep0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 280DA4CC25A70D1C00BCDC4C /* oneplusone_ep0.mp3 */; };
+		280DA4CF25A70D1D00BCDC4C /* oneplusone_ep1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 280DA4CD25A70D1C00BCDC4C /* oneplusone_ep1.mp3 */; };
+		280DA4D425A70DE000BCDC4C /* oneplusone_ep2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 280DA4D325A70DE000BCDC4C /* oneplusone_ep2.mp3 */; };
+		281AFAFC259C7DE30069E73D /* PlayProgramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281AFAFB259C7DE30069E73D /* PlayProgramViewController.m */; };
+		281AFB02259C7E190069E73D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 281AFB01259C7E190069E73D /* AVFoundation.framework */; };
+		284EC3E4259ACB17006CE63F /* ProgramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 284EC3E3259ACB17006CE63F /* ProgramViewController.m */; };
+		289598302593383900DD5285 /* PODCAST.png in Resources */ = {isa = PBXBuildFile; fileRef = 2895982F2593383900DD5285 /* PODCAST.png */; };
+		28B7CBB82591A4C700704750 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B7CBB72591A4C700704750 /* AppDelegate.m */; };
+		28B7CBBB2591A4C700704750 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B7CBBA2591A4C700704750 /* SceneDelegate.m */; };
+		28B7CBBE2591A4C700704750 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B7CBBD2591A4C700704750 /* ViewController.m */; };
+		28B7CBC12591A4C700704750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B7CBBF2591A4C700704750 /* Main.storyboard */; };
+		28B7CBC32591A4C800704750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B7CBC22591A4C800704750 /* Assets.xcassets */; };
+		28B7CBC62591A4C800704750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B7CBC42591A4C800704750 /* LaunchScreen.storyboard */; };
+		28B7CBC92591A4C800704750 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B7CBC82591A4C800704750 /* main.m */; };
+		28B7CBD32591A4C800704750 /* podcast_simpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B7CBD22591A4C800704750 /* podcast_simpleTests.m */; };
+		28B7CBDE2591A4C800704750 /* podcast_simpleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B7CBDD2591A4C800704750 /* podcast_simpleUITests.m */; };
+		358CF180266D4F6400E1B15E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 358CF175266D4F6300E1B15E /* FMResultSet.m */; };
+		358CF181266D4F6400E1B15E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 358CF175266D4F6300E1B15E /* FMResultSet.m */; };
+		358CF182266D4F6400E1B15E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 358CF175266D4F6300E1B15E /* FMResultSet.m */; };
+		358CF183266D4F6400E1B15E /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 358CF176266D4F6300E1B15E /* FMDatabaseQueue.m */; };
+		358CF184266D4F6400E1B15E /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 358CF176266D4F6300E1B15E /* FMDatabaseQueue.m */; };
+		358CF185266D4F6400E1B15E /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 358CF176266D4F6300E1B15E /* FMDatabaseQueue.m */; };
+		358CF186266D4F6400E1B15E /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 358CF17A266D4F6400E1B15E /* FMDatabasePool.m */; };
+		358CF187266D4F6400E1B15E /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 358CF17A266D4F6400E1B15E /* FMDatabasePool.m */; };
+		358CF188266D4F6400E1B15E /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 358CF17A266D4F6400E1B15E /* FMDatabasePool.m */; };
+		358CF189266D4F6400E1B15E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 358CF17B266D4F6400E1B15E /* FMDatabaseAdditions.m */; };
+		358CF18A266D4F6400E1B15E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 358CF17B266D4F6400E1B15E /* FMDatabaseAdditions.m */; };
+		358CF18B266D4F6400E1B15E /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 358CF17B266D4F6400E1B15E /* FMDatabaseAdditions.m */; };
+		358CF18C266D4F6400E1B15E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 358CF17F266D4F6400E1B15E /* FMDatabase.m */; };
+		358CF18D266D4F6400E1B15E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 358CF17F266D4F6400E1B15E /* FMDatabase.m */; };
+		358CF18E266D4F6400E1B15E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 358CF17F266D4F6400E1B15E /* FMDatabase.m */; };
+		358CF191266D5B0A00E1B15E /* podcast logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 358CF190266D5B0900E1B15E /* podcast logo.jpg */; };
+		358CF192266D5B0A00E1B15E /* podcast logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 358CF190266D5B0900E1B15E /* podcast logo.jpg */; };
+		358CF193266D5B0A00E1B15E /* podcast logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 358CF190266D5B0900E1B15E /* podcast logo.jpg */; };
+		358CF19D266D646100E1B15E /* podcast logo120x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 358CF19A266D646100E1B15E /* podcast logo120x.jpg */; };
+		358CF19E266D646100E1B15E /* podcast logo120x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 358CF19A266D646100E1B15E /* podcast logo120x.jpg */; };
+		358CF19F266D646100E1B15E /* podcast logo120x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 358CF19A266D646100E1B15E /* podcast logo120x.jpg */; };
+		358CF1A3266D646100E1B15E /* podcast logo80x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 358CF19C266D646100E1B15E /* podcast logo80x.jpg */; };
+		358CF1A4266D646100E1B15E /* podcast logo80x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 358CF19C266D646100E1B15E /* podcast logo80x.jpg */; };
+		358CF1A5266D646100E1B15E /* podcast logo80x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 358CF19C266D646100E1B15E /* podcast logo80x.jpg */; };
+		358CF1AB266D656100E1B15E /* podcast logo180x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 358CF1AA266D656100E1B15E /* podcast logo180x.jpg */; };
+		358CF1AC266D656100E1B15E /* podcast logo180x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 358CF1AA266D656100E1B15E /* podcast logo180x.jpg */; };
+		358CF1AD266D656100E1B15E /* podcast logo180x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 358CF1AA266D656100E1B15E /* podcast logo180x.jpg */; };
+		B8364D0225A991A40091BB37 /* threetofive_ep2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8364CF425A991A40091BB37 /* threetofive_ep2.mp3 */; };
+		B8364D0325A991A40091BB37 /* threetofive_ep3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8364CF525A991A40091BB37 /* threetofive_ep3.mp3 */; };
+		B8364D0425A991A40091BB37 /* threetofive_ep1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8364CF625A991A40091BB37 /* threetofive_ep1.mp3 */; };
+		B8364D0525A991A40091BB37 /* frog_ep2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8364CF725A991A40091BB37 /* frog_ep2.mp3 */; };
+		B8364D0625A991A40091BB37 /* threetofive_ep0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8364CF825A991A40091BB37 /* threetofive_ep0.mp3 */; };
+		B8364D0725A991A40091BB37 /* TedTalk_ep1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8364CF925A991A40091BB37 /* TedTalk_ep1.mp3 */; };
+		B8364D0825A991A40091BB37 /* frog_ep3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8364CFA25A991A40091BB37 /* frog_ep3.mp3 */; };
+		B8364D0925A991A40091BB37 /* oneplusone_ep4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8364CFB25A991A40091BB37 /* oneplusone_ep4.mp3 */; };
+		B8364D0A25A991A40091BB37 /* TedTalk_ep0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8364CFC25A991A40091BB37 /* TedTalk_ep0.mp3 */; };
+		B8364D0B25A991A40091BB37 /* frog_ep1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8364CFD25A991A40091BB37 /* frog_ep1.mp3 */; };
+		B8364D0C25A991A40091BB37 /* frog_ep4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8364CFE25A991A40091BB37 /* frog_ep4.mp3 */; };
+		B8364D0D25A991A40091BB37 /* TedTalk_ep2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8364CFF25A991A40091BB37 /* TedTalk_ep2.mp3 */; };
+		B8364D0E25A991A40091BB37 /* oneplusone_ep3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8364D0025A991A40091BB37 /* oneplusone_ep3.mp3 */; };
+		B8364D0F25A991A40091BB37 /* frog_ep0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B8364D0125A991A40091BB37 /* frog_ep0.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28B7CBCF2591A4C800704750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28B7CBAB2591A4C700704750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28B7CBB22591A4C700704750;
+			remoteInfo = podcast_simple;
+		};
+		28B7CBDA2591A4C800704750 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28B7CBAB2591A4C700704750 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28B7CBB22591A4C700704750;
+			remoteInfo = podcast_simple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		280DA4A225A6F70600BCDC4C /* 壹加壹.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "壹加壹.jpg"; path = "podcast_simple/PocastPic/壹加壹.jpg"; sourceTree = SOURCE_ROOT; };
+		280DA4A425A6F70600BCDC4C /* 三不五時七步成詩.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "三不五時七步成詩.jpg"; path = "podcast_simple/PocastPic/三不五時七步成詩.jpg"; sourceTree = SOURCE_ROOT; };
+		280DA4AD25A6F91400BCDC4C /* 呱吉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "呱吉.jpg"; path = "podcast_simple/PocastPic/呱吉.jpg"; sourceTree = SOURCE_ROOT; };
+		280DA4B225A6F91C00BCDC4C /* Ted Talk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Ted Talk.jpg"; path = "podcast_simple/PocastPic/Ted Talk.jpg"; sourceTree = SOURCE_ROOT; };
+		280DA4CC25A70D1C00BCDC4C /* oneplusone_ep0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = oneplusone_ep0.mp3; path = podcast_simple/PocastAudio/oneplusone_ep0.mp3; sourceTree = SOURCE_ROOT; };
+		280DA4CD25A70D1C00BCDC4C /* oneplusone_ep1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = oneplusone_ep1.mp3; path = podcast_simple/PocastAudio/oneplusone_ep1.mp3; sourceTree = SOURCE_ROOT; };
+		280DA4D325A70DE000BCDC4C /* oneplusone_ep2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = oneplusone_ep2.mp3; path = podcast_simple/PocastAudio/oneplusone_ep2.mp3; sourceTree = SOURCE_ROOT; };
+		281AFAFA259C7DE30069E73D /* PlayProgramViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayProgramViewController.h; sourceTree = "<group>"; };
+		281AFAFB259C7DE30069E73D /* PlayProgramViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayProgramViewController.m; sourceTree = "<group>"; };
+		281AFB01259C7E190069E73D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		284EC3E2259ACB17006CE63F /* ProgramViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgramViewController.h; sourceTree = "<group>"; };
+		284EC3E3259ACB17006CE63F /* ProgramViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgramViewController.m; sourceTree = "<group>"; };
+		2895982F2593383900DD5285 /* PODCAST.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PODCAST.png; path = podcast_simple/PocastPic/PODCAST.png; sourceTree = SOURCE_ROOT; };
+		28B7CBB32591A4C700704750 /* podcast_simple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = podcast_simple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B7CBB62591A4C700704750 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28B7CBB72591A4C700704750 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28B7CBB92591A4C700704750 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		28B7CBBA2591A4C700704750 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		28B7CBBC2591A4C700704750 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28B7CBBD2591A4C700704750 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28B7CBC02591A4C700704750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28B7CBC22591A4C800704750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28B7CBC52591A4C800704750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28B7CBC72591A4C800704750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B7CBC82591A4C800704750 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28B7CBCE2591A4C800704750 /* podcast_simpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podcast_simpleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B7CBD22591A4C800704750 /* podcast_simpleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = podcast_simpleTests.m; sourceTree = "<group>"; };
+		28B7CBD42591A4C800704750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B7CBD92591A4C800704750 /* podcast_simpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podcast_simpleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28B7CBDD2591A4C800704750 /* podcast_simpleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = podcast_simpleUITests.m; sourceTree = "<group>"; };
+		28B7CBDF2591A4C800704750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		358CF175266D4F6300E1B15E /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		358CF176266D4F6300E1B15E /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		358CF177266D4F6300E1B15E /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		358CF178266D4F6300E1B15E /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		358CF179266D4F6300E1B15E /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		358CF17A266D4F6400E1B15E /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		358CF17B266D4F6400E1B15E /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		358CF17C266D4F6400E1B15E /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		358CF17D266D4F6400E1B15E /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		358CF17E266D4F6400E1B15E /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		358CF17F266D4F6400E1B15E /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		358CF190266D5B0900E1B15E /* podcast logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "podcast logo.jpg"; path = "podcast_simple/PocastPic/podcast logo.jpg"; sourceTree = SOURCE_ROOT; };
+		358CF19A266D646100E1B15E /* podcast logo120x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "podcast logo120x.jpg"; sourceTree = SOURCE_ROOT; };
+		358CF19C266D646100E1B15E /* podcast logo80x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "podcast logo80x.jpg"; sourceTree = SOURCE_ROOT; };
+		358CF1AA266D656100E1B15E /* podcast logo180x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "podcast logo180x.jpg"; sourceTree = SOURCE_ROOT; };
+		B8364CF425A991A40091BB37 /* threetofive_ep2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = threetofive_ep2.mp3; path = podcast_simple/PocastAudio/threetofive_ep2.mp3; sourceTree = SOURCE_ROOT; };
+		B8364CF525A991A40091BB37 /* threetofive_ep3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = threetofive_ep3.mp3; path = podcast_simple/PocastAudio/threetofive_ep3.mp3; sourceTree = SOURCE_ROOT; };
+		B8364CF625A991A40091BB37 /* threetofive_ep1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = threetofive_ep1.mp3; path = podcast_simple/PocastAudio/threetofive_ep1.mp3; sourceTree = SOURCE_ROOT; };
+		B8364CF725A991A40091BB37 /* frog_ep2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = frog_ep2.mp3; path = podcast_simple/PocastAudio/frog_ep2.mp3; sourceTree = SOURCE_ROOT; };
+		B8364CF825A991A40091BB37 /* threetofive_ep0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = threetofive_ep0.mp3; path = podcast_simple/PocastAudio/threetofive_ep0.mp3; sourceTree = SOURCE_ROOT; };
+		B8364CF925A991A40091BB37 /* TedTalk_ep1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TedTalk_ep1.mp3; path = podcast_simple/PocastAudio/TedTalk_ep1.mp3; sourceTree = SOURCE_ROOT; };
+		B8364CFA25A991A40091BB37 /* frog_ep3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = frog_ep3.mp3; path = podcast_simple/PocastAudio/frog_ep3.mp3; sourceTree = SOURCE_ROOT; };
+		B8364CFB25A991A40091BB37 /* oneplusone_ep4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = oneplusone_ep4.mp3; path = podcast_simple/PocastAudio/oneplusone_ep4.mp3; sourceTree = SOURCE_ROOT; };
+		B8364CFC25A991A40091BB37 /* TedTalk_ep0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TedTalk_ep0.mp3; path = podcast_simple/PocastAudio/TedTalk_ep0.mp3; sourceTree = SOURCE_ROOT; };
+		B8364CFD25A991A40091BB37 /* frog_ep1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = frog_ep1.mp3; path = podcast_simple/PocastAudio/frog_ep1.mp3; sourceTree = SOURCE_ROOT; };
+		B8364CFE25A991A40091BB37 /* frog_ep4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = frog_ep4.mp3; path = podcast_simple/PocastAudio/frog_ep4.mp3; sourceTree = SOURCE_ROOT; };
+		B8364CFF25A991A40091BB37 /* TedTalk_ep2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TedTalk_ep2.mp3; path = podcast_simple/PocastAudio/TedTalk_ep2.mp3; sourceTree = SOURCE_ROOT; };
+		B8364D0025A991A40091BB37 /* oneplusone_ep3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = oneplusone_ep3.mp3; path = podcast_simple/PocastAudio/oneplusone_ep3.mp3; sourceTree = SOURCE_ROOT; };
+		B8364D0125A991A40091BB37 /* frog_ep0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = frog_ep0.mp3; path = podcast_simple/PocastAudio/frog_ep0.mp3; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28B7CBB02591A4C700704750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281AFB02259C7E190069E73D /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B7CBCB2591A4C800704750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B7CBD62591A4C800704750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281AFB00259C7E190069E73D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				281AFB01259C7E190069E73D /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28B7CBAA2591A4C700704750 = {
+			isa = PBXGroup;
+			children = (
+				5856488125A7370300DBB315 /* FMDB */,
+				28B7CBB52591A4C700704750 /* podcast_simple */,
+				28B7CBD12591A4C800704750 /* podcast_simpleTests */,
+				28B7CBDC2591A4C800704750 /* podcast_simpleUITests */,
+				28B7CBB42591A4C700704750 /* Products */,
+				281AFB00259C7E190069E73D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28B7CBB42591A4C700704750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28B7CBB32591A4C700704750 /* podcast_simple.app */,
+				28B7CBCE2591A4C800704750 /* podcast_simpleTests.xctest */,
+				28B7CBD92591A4C800704750 /* podcast_simpleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28B7CBB52591A4C700704750 /* podcast_simple */ = {
+			isa = PBXGroup;
+			children = (
+				358CF18F266D5AC900E1B15E /* PocastAudio */,
+				358CF195266D5B2400E1B15E /* PocastPic */,
+				28B7CBB62591A4C700704750 /* AppDelegate.h */,
+				28B7CBB72591A4C700704750 /* AppDelegate.m */,
+				28B7CBB92591A4C700704750 /* SceneDelegate.h */,
+				28B7CBBA2591A4C700704750 /* SceneDelegate.m */,
+				28B7CBBC2591A4C700704750 /* ViewController.h */,
+				28B7CBBD2591A4C700704750 /* ViewController.m */,
+				28B7CBBF2591A4C700704750 /* Main.storyboard */,
+				281AFAFA259C7DE30069E73D /* PlayProgramViewController.h */,
+				281AFAFB259C7DE30069E73D /* PlayProgramViewController.m */,
+				284EC3E2259ACB17006CE63F /* ProgramViewController.h */,
+				284EC3E3259ACB17006CE63F /* ProgramViewController.m */,
+				28B7CBC22591A4C800704750 /* Assets.xcassets */,
+				28B7CBC42591A4C800704750 /* LaunchScreen.storyboard */,
+				28B7CBC72591A4C800704750 /* Info.plist */,
+				28B7CBC82591A4C800704750 /* main.m */,
+			);
+			path = podcast_simple;
+			sourceTree = "<group>";
+		};
+		28B7CBD12591A4C800704750 /* podcast_simpleTests */ = {
+			isa = PBXGroup;
+			children = (
+				28B7CBD22591A4C800704750 /* podcast_simpleTests.m */,
+				28B7CBD42591A4C800704750 /* Info.plist */,
+			);
+			path = podcast_simpleTests;
+			sourceTree = "<group>";
+		};
+		28B7CBDC2591A4C800704750 /* podcast_simpleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28B7CBDD2591A4C800704750 /* podcast_simpleUITests.m */,
+				28B7CBDF2591A4C800704750 /* Info.plist */,
+			);
+			path = podcast_simpleUITests;
+			sourceTree = "<group>";
+		};
+		358CF18F266D5AC900E1B15E /* PocastAudio */ = {
+			isa = PBXGroup;
+			children = (
+				280DA4D325A70DE000BCDC4C /* oneplusone_ep2.mp3 */,
+				280DA4CC25A70D1C00BCDC4C /* oneplusone_ep0.mp3 */,
+				280DA4CD25A70D1C00BCDC4C /* oneplusone_ep1.mp3 */,
+				B8364D0125A991A40091BB37 /* frog_ep0.mp3 */,
+				B8364CFD25A991A40091BB37 /* frog_ep1.mp3 */,
+				B8364CF725A991A40091BB37 /* frog_ep2.mp3 */,
+				B8364CFA25A991A40091BB37 /* frog_ep3.mp3 */,
+				B8364CFE25A991A40091BB37 /* frog_ep4.mp3 */,
+				B8364D0025A991A40091BB37 /* oneplusone_ep3.mp3 */,
+				B8364CFB25A991A40091BB37 /* oneplusone_ep4.mp3 */,
+				B8364CFC25A991A40091BB37 /* TedTalk_ep0.mp3 */,
+				B8364CF925A991A40091BB37 /* TedTalk_ep1.mp3 */,
+				B8364CFF25A991A40091BB37 /* TedTalk_ep2.mp3 */,
+				B8364CF825A991A40091BB37 /* threetofive_ep0.mp3 */,
+				B8364CF625A991A40091BB37 /* threetofive_ep1.mp3 */,
+				B8364CF425A991A40091BB37 /* threetofive_ep2.mp3 */,
+				B8364CF525A991A40091BB37 /* threetofive_ep3.mp3 */,
+			);
+			path = PocastAudio;
+			sourceTree = "<group>";
+		};
+		358CF195266D5B2400E1B15E /* PocastPic */ = {
+			isa = PBXGroup;
+			children = (
+				358CF19C266D646100E1B15E /* podcast logo80x.jpg */,
+				358CF19A266D646100E1B15E /* podcast logo120x.jpg */,
+				358CF1AA266D656100E1B15E /* podcast logo180x.jpg */,
+				2895982F2593383900DD5285 /* PODCAST.png */,
+				280DA4B225A6F91C00BCDC4C /* Ted Talk.jpg */,
+				358CF190266D5B0900E1B15E /* podcast logo.jpg */,
+				280DA4AD25A6F91400BCDC4C /* 呱吉.jpg */,
+				280DA4A425A6F70600BCDC4C /* 三不五時七步成詩.jpg */,
+				280DA4A225A6F70600BCDC4C /* 壹加壹.jpg */,
+			);
+			path = PocastPic;
+			sourceTree = "<group>";
+		};
+		5856488125A7370300DBB315 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				358CF178266D4F6300E1B15E /* FMDatabase.h */,
+				358CF17F266D4F6400E1B15E /* FMDatabase.m */,
+				358CF17C266D4F6400E1B15E /* FMDatabaseAdditions.h */,
+				358CF17B266D4F6400E1B15E /* FMDatabaseAdditions.m */,
+				358CF177266D4F6300E1B15E /* FMDatabasePool.h */,
+				358CF17A266D4F6400E1B15E /* FMDatabasePool.m */,
+				358CF17D266D4F6400E1B15E /* FMDatabaseQueue.h */,
+				358CF176266D4F6300E1B15E /* FMDatabaseQueue.m */,
+				358CF179266D4F6300E1B15E /* FMDB.h */,
+				358CF17E266D4F6400E1B15E /* FMResultSet.h */,
+				358CF175266D4F6300E1B15E /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28B7CBB22591A4C700704750 /* podcast_simple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28B7CBE22591A4C800704750 /* Build configuration list for PBXNativeTarget "podcast_simple" */;
+			buildPhases = (
+				28B7CBAF2591A4C700704750 /* Sources */,
+				28B7CBB02591A4C700704750 /* Frameworks */,
+				28B7CBB12591A4C700704750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = podcast_simple;
+			productName = podcast_simple;
+			productReference = 28B7CBB32591A4C700704750 /* podcast_simple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28B7CBCD2591A4C800704750 /* podcast_simpleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28B7CBE52591A4C800704750 /* Build configuration list for PBXNativeTarget "podcast_simpleTests" */;
+			buildPhases = (
+				28B7CBCA2591A4C800704750 /* Sources */,
+				28B7CBCB2591A4C800704750 /* Frameworks */,
+				28B7CBCC2591A4C800704750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28B7CBD02591A4C800704750 /* PBXTargetDependency */,
+			);
+			name = podcast_simpleTests;
+			productName = podcast_simpleTests;
+			productReference = 28B7CBCE2591A4C800704750 /* podcast_simpleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28B7CBD82591A4C800704750 /* podcast_simpleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28B7CBE82591A4C800704750 /* Build configuration list for PBXNativeTarget "podcast_simpleUITests" */;
+			buildPhases = (
+				28B7CBD52591A4C800704750 /* Sources */,
+				28B7CBD62591A4C800704750 /* Frameworks */,
+				28B7CBD72591A4C800704750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28B7CBDB2591A4C800704750 /* PBXTargetDependency */,
+			);
+			name = podcast_simpleUITests;
+			productName = podcast_simpleUITests;
+			productReference = 28B7CBD92591A4C800704750 /* podcast_simpleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28B7CBAB2591A4C700704750 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					28B7CBB22591A4C700704750 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					28B7CBCD2591A4C800704750 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 28B7CBB22591A4C700704750;
+					};
+					28B7CBD82591A4C800704750 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 28B7CBB22591A4C700704750;
+					};
+				};
+			};
+			buildConfigurationList = 28B7CBAE2591A4C700704750 /* Build configuration list for PBXProject "podcast_simple" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28B7CBAA2591A4C700704750;
+			productRefGroup = 28B7CBB42591A4C700704750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28B7CBB22591A4C700704750 /* podcast_simple */,
+				28B7CBCD2591A4C800704750 /* podcast_simpleTests */,
+				28B7CBD82591A4C800704750 /* podcast_simpleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28B7CBB12591A4C700704750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8364D0225A991A40091BB37 /* threetofive_ep2.mp3 in Resources */,
+				289598302593383900DD5285 /* PODCAST.png in Resources */,
+				280DA4CF25A70D1D00BCDC4C /* oneplusone_ep1.mp3 in Resources */,
+				B8364D0525A991A40091BB37 /* frog_ep2.mp3 in Resources */,
+				B8364D0425A991A40091BB37 /* threetofive_ep1.mp3 in Resources */,
+				B8364D0925A991A40091BB37 /* oneplusone_ep4.mp3 in Resources */,
+				B8364D0B25A991A40091BB37 /* frog_ep1.mp3 in Resources */,
+				280DA4AE25A6F91400BCDC4C /* 呱吉.jpg in Resources */,
+				28B7CBC62591A4C800704750 /* LaunchScreen.storyboard in Resources */,
+				358CF1AB266D656100E1B15E /* podcast logo180x.jpg in Resources */,
+				358CF19D266D646100E1B15E /* podcast logo120x.jpg in Resources */,
+				280DA4A625A6F70600BCDC4C /* 壹加壹.jpg in Resources */,
+				280DA4D425A70DE000BCDC4C /* oneplusone_ep2.mp3 in Resources */,
+				280DA4B325A6F91C00BCDC4C /* Ted Talk.jpg in Resources */,
+				B8364D0725A991A40091BB37 /* TedTalk_ep1.mp3 in Resources */,
+				B8364D0F25A991A40091BB37 /* frog_ep0.mp3 in Resources */,
+				358CF1A3266D646100E1B15E /* podcast logo80x.jpg in Resources */,
+				B8364D0625A991A40091BB37 /* threetofive_ep0.mp3 in Resources */,
+				B8364D0325A991A40091BB37 /* threetofive_ep3.mp3 in Resources */,
+				280DA4CE25A70D1D00BCDC4C /* oneplusone_ep0.mp3 in Resources */,
+				28B7CBC32591A4C800704750 /* Assets.xcassets in Resources */,
+				B8364D0D25A991A40091BB37 /* TedTalk_ep2.mp3 in Resources */,
+				B8364D0825A991A40091BB37 /* frog_ep3.mp3 in Resources */,
+				358CF191266D5B0A00E1B15E /* podcast logo.jpg in Resources */,
+				28B7CBC12591A4C700704750 /* Main.storyboard in Resources */,
+				B8364D0A25A991A40091BB37 /* TedTalk_ep0.mp3 in Resources */,
+				B8364D0C25A991A40091BB37 /* frog_ep4.mp3 in Resources */,
+				280DA4A825A6F70600BCDC4C /* 三不五時七步成詩.jpg in Resources */,
+				B8364D0E25A991A40091BB37 /* oneplusone_ep3.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B7CBCC2591A4C800704750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358CF192266D5B0A00E1B15E /* podcast logo.jpg in Resources */,
+				358CF1A4266D646100E1B15E /* podcast logo80x.jpg in Resources */,
+				358CF19E266D646100E1B15E /* podcast logo120x.jpg in Resources */,
+				358CF1AC266D656100E1B15E /* podcast logo180x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B7CBD72591A4C800704750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358CF193266D5B0A00E1B15E /* podcast logo.jpg in Resources */,
+				358CF1A5266D646100E1B15E /* podcast logo80x.jpg in Resources */,
+				358CF19F266D646100E1B15E /* podcast logo120x.jpg in Resources */,
+				358CF1AD266D656100E1B15E /* podcast logo180x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28B7CBAF2591A4C700704750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B7CBBE2591A4C700704750 /* ViewController.m in Sources */,
+				358CF183266D4F6400E1B15E /* FMDatabaseQueue.m in Sources */,
+				281AFAFC259C7DE30069E73D /* PlayProgramViewController.m in Sources */,
+				358CF180266D4F6400E1B15E /* FMResultSet.m in Sources */,
+				358CF186266D4F6400E1B15E /* FMDatabasePool.m in Sources */,
+				28B7CBB82591A4C700704750 /* AppDelegate.m in Sources */,
+				284EC3E4259ACB17006CE63F /* ProgramViewController.m in Sources */,
+				28B7CBC92591A4C800704750 /* main.m in Sources */,
+				28B7CBBB2591A4C700704750 /* SceneDelegate.m in Sources */,
+				358CF18C266D4F6400E1B15E /* FMDatabase.m in Sources */,
+				358CF189266D4F6400E1B15E /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B7CBCA2591A4C800704750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358CF181266D4F6400E1B15E /* FMResultSet.m in Sources */,
+				358CF187266D4F6400E1B15E /* FMDatabasePool.m in Sources */,
+				28B7CBD32591A4C800704750 /* podcast_simpleTests.m in Sources */,
+				358CF18D266D4F6400E1B15E /* FMDatabase.m in Sources */,
+				358CF184266D4F6400E1B15E /* FMDatabaseQueue.m in Sources */,
+				358CF18A266D4F6400E1B15E /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28B7CBD52591A4C800704750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358CF182266D4F6400E1B15E /* FMResultSet.m in Sources */,
+				358CF188266D4F6400E1B15E /* FMDatabasePool.m in Sources */,
+				28B7CBDE2591A4C800704750 /* podcast_simpleUITests.m in Sources */,
+				358CF18E266D4F6400E1B15E /* FMDatabase.m in Sources */,
+				358CF185266D4F6400E1B15E /* FMDatabaseQueue.m in Sources */,
+				358CF18B266D4F6400E1B15E /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28B7CBD02591A4C800704750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28B7CBB22591A4C700704750 /* podcast_simple */;
+			targetProxy = 28B7CBCF2591A4C800704750 /* PBXContainerItemProxy */;
+		};
+		28B7CBDB2591A4C800704750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28B7CBB22591A4C700704750 /* podcast_simple */;
+			targetProxy = 28B7CBDA2591A4C800704750 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28B7CBBF2591A4C700704750 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28B7CBC02591A4C700704750 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28B7CBC42591A4C800704750 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28B7CBC52591A4C800704750 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28B7CBE02591A4C800704750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28B7CBE12591A4C800704750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28B7CBE32591A4C800704750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68H69S45YB;
+				INFOPLIST_FILE = podcast_simple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maypodcast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28B7CBE42591A4C800704750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68H69S45YB;
+				INFOPLIST_FILE = podcast_simple/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maypodcast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28B7CBE62591A4C800704750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = podcast_simpleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yuntech.podcast-simpleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/podcast_simple.app/podcast_simple";
+			};
+			name = Debug;
+		};
+		28B7CBE72591A4C800704750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = podcast_simpleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yuntech.podcast-simpleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/podcast_simple.app/podcast_simple";
+			};
+			name = Release;
+		};
+		28B7CBE92591A4C800704750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = podcast_simpleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yuntech.podcast-simpleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = podcast_simple;
+			};
+			name = Debug;
+		};
+		28B7CBEA2591A4C800704750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = podcast_simpleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yuntech.podcast-simpleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = podcast_simple;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28B7CBAE2591A4C700704750 /* Build configuration list for PBXProject "podcast_simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B7CBE02591A4C800704750 /* Debug */,
+				28B7CBE12591A4C800704750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28B7CBE22591A4C800704750 /* Build configuration list for PBXNativeTarget "podcast_simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B7CBE32591A4C800704750 /* Debug */,
+				28B7CBE42591A4C800704750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28B7CBE52591A4C800704750 /* Build configuration list for PBXNativeTarget "podcast_simpleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B7CBE62591A4C800704750 /* Debug */,
+				28B7CBE72591A4C800704750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28B7CBE82591A4C800704750 /* Build configuration list for PBXNativeTarget "podcast_simpleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28B7CBE92591A4C800704750 /* Debug */,
+				28B7CBEA2591A4C800704750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28B7CBAB2591A4C700704750 /* Project object */;
+}
